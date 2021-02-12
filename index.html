@@ -4,19 +4,18 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width-device-width, initial-scale=1.0">
         <title>Tip Calculator</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
         <div class="main-container">
-            <header><h1>TIP CALCULATOR</h1></header>
+           <h1>TIP CALCULATOR</h1>
 
             <div id="calculator">
                 <form>
                     <p>How much was your bill?</p>
 
-                    <label for="bill-amount">$</label>
-                    <input type="text" id="bill-amount" name="bill-amount" placeholder="Bill amount" required>
-                
-
+                        <label for="bill-amount">$</label>
+                        <input type="text" id="bill-amount" name="bill-amount" placeholder="Bill amount" required>
                     <p>How was your service?</p>
 
                     <label for="service"></label>
@@ -31,16 +30,16 @@
                     </select>
                 </form>
 
-                <p>How many people are sharing the bill?</p>
+                <p>How many people are splitting the bill?</p>
 
-                <form>
+                <form class="people">
                     <input type="text" id="num-people" name="num-people" placeholder="Number of People" required>
                     <label for="num-people">people</label>
                 </form>
 
-                <div class="calc-btn">
-                    <button type="submit" id="calculate-button">CALCULATE!</button>
-                </div>
+                
+                <button type="submit" id="calculate-button">CALCULATE!</button>
+                
                 
             </div>
             <!--Calcualtor end-->
@@ -53,7 +52,7 @@
         </div>
         <!--container ends-->
 
-        <script type="text/javascript" src="app.js"></script>
+        <script src="app.js" meta="utf-8"></script>
     </body>
     </html>
 
